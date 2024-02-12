@@ -1,0 +1,151 @@
+*{
+    font-family: "gilroy";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100vh;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+#back{
+    width: 100%;
+    height: 100vh;
+    scroll-margin-inline: 100vh;
+}
+
+#back image{
+    
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#workingarea{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    /* max-width: 80%; */
+    max-width: 1600px;
+}
+
+#nav{
+    width: 100%;
+    margin: 1.5vw 0;
+    padding: 1.5vw 1vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav img{
+    height: 60px;
+}
+
+#nav a{
+    pointer-events: all;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.menu1,.menu2{
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#herolt{
+    min-width: 50%;
+    /* background-color: yellowgreen; */
+}
+
+#herolt .elem{
+    position: relative;
+    /* background-color: #ff0048; */
+    overflow: hidden;
+    height: 9vw;
+}
+
+#herolt .elem h1:nth-child(1) {
+    top: 0;
+}
+
+#herolt .elem h1{
+    position: absolute;
+    line-height: .9;
+    top: 100%;
+    left: 0;
+    font-family: "kajiro";
+    color: #fff;
+    font-weight: 100;
+    font-size: 11vw;
+}
+
+#herolt #butt{
+    pointer-events: all;
+    text-transform: capitalize;
+    margin-top: 3vw;
+    padding: 0.2vw 3.2vw;
+    letter-spacing: 5px;
+    font-size: 2vw;
+    font-family: "kajiro";
+}
+
+#herort{
+    width: 17%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* background-color: green; */
+}
+
+#herort .imgdiv{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 9vw;
+    background-image: url(https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position:center;
+}
+
+#herort p:nth-child(3){
+    margin-bottom: 100px;
+}
+
+#herort p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+}
